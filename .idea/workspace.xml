@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b837e83-a5a1-41d0-9b8a-a175fa30b845" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AnomalyDetectionInEncryptedNetwork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monitorTraffic.py" afterDir="false" />
-    </list>
+    <list default="true" id="5b837e83-a5a1-41d0-9b8a-a175fa30b845" name="Changes" comment="Feat: add encrypted traffic flow monitor and Streamlit dashboard&#10;&#10;- Add monitorTraffic.py: extracts flow features and TLS/QUIC metadata&#10;  (SNI, fingerprints, packet size/timing stats) with NFStream from live&#10;  capture or PCAP files&#10;- Score flows with Isolation Forest trained on a warmup baseline and&#10;  log anomalies to alerts.jsonl&#10;- Add dashboard.py: Streamlit UI with summary metrics, score distribution,&#10;  packets vs. bytes plot, top domains and anomaly alerts table" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,17 +28,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.monitorTraffic.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.dashboard.executor": "Run",
+    "Python.monitorTraffic.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -62,6 +55,30 @@
       <option name="presentableId" value="Default" />
       <updated>1791122054730</updated>
     </task>
+    <task id="LOCAL-00001" summary="Feat: add encrypted traffic flow monitor and Streamlit dashboard&#10;&#10;- Add monitorTraffic.py: extracts flow features and TLS/QUIC metadata&#10;  (SNI, fingerprints, packet size/timing stats) with NFStream from live&#10;  capture or PCAP files&#10;- Score flows with Isolation Forest trained on a warmup baseline and&#10;  log anomalies to alerts.jsonl&#10;- Add dashboard.py: Streamlit UI with summary metrics, score distribution,&#10;  packets vs. bytes plot, top domains and anomaly alerts table">
+      <option name="closed" value="true" />
+      <created>1791131792551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791131792551</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Feat: add encrypted traffic flow monitor and Streamlit dashboard&#10;&#10;- Add monitorTraffic.py: extracts flow features and TLS/QUIC metadata&#10;  (SNI, fingerprints, packet size/timing stats) with NFStream from live&#10;  capture or PCAP files&#10;- Score flows with Isolation Forest trained on a warmup baseline and&#10;  log anomalies to alerts.jsonl&#10;- Add dashboard.py: Streamlit UI with summary metrics, score distribution,&#10;  packets vs. bytes plot, top domains and anomaly alerts table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: add encrypted traffic flow monitor and Streamlit dashboard&#10;&#10;- Add monitorTraffic.py: extracts flow features and TLS/QUIC metadata&#10;  (SNI, fingerprints, packet size/timing stats) with NFStream from live&#10;  capture or PCAP files&#10;- Score flows with Isolation Forest trained on a warmup baseline and&#10;  log anomalies to alerts.jsonl&#10;- Add dashboard.py: Streamlit UI with summary metrics, score distribution,&#10;  packets vs. bytes plot, top domains and anomaly alerts table" />
   </component>
 </project>
